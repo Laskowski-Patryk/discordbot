@@ -508,4 +508,4 @@ let enetrial2 = new cron.CronJob("00 50 19 * * 6", () => {
     .catch((err) => console.log(err));
 });
 enetrial2.start();
-client.login(process.env.S3_KEY);
+client.login(process.env.BOT_TOKEN);
