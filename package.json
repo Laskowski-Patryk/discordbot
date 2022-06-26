@@ -1,0 +1,25 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lasek",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "cronj": "^1.0.1",
+    "discord.js": "^13.6.0",
+    "endb": "^1.3.0",
+    "enmap": "^5.8.8",
+    "google-spreadsheet": "^3.2.0",
+    "simple-json-db": "^2.0.0",
+    "sql": "^0.78.0",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "g-sheets-api": "^2.1.2"
+  }
+}
