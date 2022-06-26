@@ -473,4 +473,4 @@ let enetrial2 = new cron.CronJob("00 50 19 * * 6", () => {
     .catch((err) => console.log(err));
 });
 enetrial2.start();
-client.login("OTUzNDM4MjgzNDAzMjUxNzM0.YjEkmA.I-ejfEnnC9SIXg0snDm_phdwR8Q");
+client.login(process.env.BOT_TOKEN);
